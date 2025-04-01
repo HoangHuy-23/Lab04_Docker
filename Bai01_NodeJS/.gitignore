@@ -1,0 +1,35 @@
+# Bỏ qua thư mục node_modules (các package cài đặt)
+node_modules/
+
+# Bỏ qua file lock của package manager
+package-lock.json
+yarn.lock
+
+# Bỏ qua các file log
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+logs/
+*.log
+
+# Bỏ qua file môi trường
+.env
+.env.local
+.env.development
+.env.production
+
+# Bỏ qua thư mục build trong Docker
+dist/
+build/
+
+# Bỏ qua các file Docker không cần thiết
+.dockerignore
+docker-compose.override.yml
+
+# Bỏ qua file IDE/editor config
+.vscode/
+.idea/
+.DS_Store
+
+# Bỏ qua các thư mục cache
+.cache/
